@@ -12,7 +12,6 @@ import java.util.List;
 // The @Component annotation tells Spring:
 // "Please create an object of this class and manage it for me."
 @Component
-@Primary
 public class ActorDaoInMemory implements ActorDao {
     private List<Actor> actors;
 

@@ -17,7 +17,7 @@ public class UserInterface implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("Running User Interface");
-          actorDao.add(new Actor(0, "Ryan", "Gosling", LocalDateTime.now()));
+//          actorDao.add(new Actor(0, "Ryan", "Gosling", LocalDateTime.now()));
 
 
           List<Actor> actors = actorDao.getAll();

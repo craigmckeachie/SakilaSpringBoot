@@ -1,6 +1,7 @@
 package com.pluralsight.sakila.data;
 
 import com.pluralsight.sakila.model.Actor;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
@@ -14,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
+@Primary
 public class ActorDaoJdbc implements ActorDao {
 
     private final DataSource dataSource;
