@@ -19,7 +19,7 @@ public class ActorDaoInMemory implements ActorDao {
 
     // This is used to assign a unique ID to each new Actor.
     // Every time we add a Actor, we will increase this number by 1.
-    private int nextId = 1;
+    private int nextId = 6;
 
 
     public ActorDaoInMemory() {
