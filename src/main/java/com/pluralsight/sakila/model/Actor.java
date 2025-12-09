@@ -1,4 +1,4 @@
-package com.pluralsight.SakilaSpringBoot.model;
+package com.pluralsight.sakila.model;
 
 import java.time.LocalDateTime;
 

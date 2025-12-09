@@ -1,6 +1,6 @@
-package com.pluralsight.SakilaSpringBoot.data;
+package com.pluralsight.sakila.data;
 
-import com.pluralsight.SakilaSpringBoot.model.Actor;
+import com.pluralsight.sakila.model.Actor;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

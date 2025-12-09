@@ -1,7 +1,7 @@
-package com.pluralsight.SakilaSpringBoot.ui;
+package com.pluralsight.sakila.ui;
 
-import com.pluralsight.SakilaSpringBoot.data.ActorDao;
-import com.pluralsight.SakilaSpringBoot.model.Actor;
+import com.pluralsight.sakila.data.ActorDao;
+import com.pluralsight.sakila.model.Actor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
