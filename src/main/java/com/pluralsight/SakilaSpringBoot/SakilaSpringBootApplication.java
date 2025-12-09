@@ -1,7 +1,6 @@
 package com.pluralsight.SakilaSpringBoot;
 
-import com.pluralsight.SakilaSpringBoot.data.ActorDaoInMemory;
-import com.pluralsight.SakilaSpringBoot.ui.UserInterface;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
