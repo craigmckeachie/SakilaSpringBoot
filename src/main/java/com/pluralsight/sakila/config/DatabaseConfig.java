@@ -22,8 +22,6 @@ public class DatabaseConfig {
                           @Value("${datasource.username}") String username,
                           @Value("${datasource.password}") String password) {
 
-        System.out.println(url);
-
         this.basicDataSource = new BasicDataSource();
         this.basicDataSource.setUrl(url);
         this.basicDataSource.setUsername(username);
